@@ -1,78 +1,81 @@
 ---
-title: "Astro Nano"
-description: "Minimal portfolio and blog build with astro and no frameworks."
+title: "IssueHunter"
+description: "IssueHunter is the ultimate GitHub issue search wizard! It's like having your own personal issue-hunting sidekick, here to help you search for GitHub issues with ninja-like efficiency. Whether you're a coding wizard or a project management sorcerer, IssueHunter's got your back!"
 date: "Mar 26 2024"
-demoURL: "https://astro-nano-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-nano"
+demoURL: "https://issue-hunter-seven.vercel.app"
+repoURL: "https://github.com/NewtonFernandis/IssueHunter"
 ---
 
-![Astro Nano](/astro-nano.png)
+IssueHunter is a powerful GitHub issue search tool designed to streamline your issue-hunting process. Whether you're a coding wizard or a project management sorcerer, IssueHunter is here to assist you in discovering GitHub issues with remarkable efficiency.
 
-Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog theme.
+![IssueHunter](../../../assets/issueHunter.png)
 
-Built with Astro, Tailwind and Typescript, an no frameworks.
+## Key Features
 
-It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/markhorn-dev/astro-sphere)
+- **Effortless Issue Discovery**: Quickly search and discover GitHub issues with ease.
+- **Advanced Filtering**: Refine your search results using various filters, eliminating the need for manual sifting.
 
-## 🚀 Deploy your own
+## Getting Started
 
-<div class="flex gap-2">
-  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-nano">
-    <img src="/deploy_vercel.svg" />
-  </a>
-  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-nano">
-    <img src="/deploy_netlify.svg" />
-  </a>
-</div>
+Let's get you started with IssueHunter, your trusted issue-searching sidekick. Follow these simple steps:
 
-## 📋 Features
+### Prerequisites
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
+- Node.js: If you don't already have Node.js installed, you can download it from [nodejs.org](https://nodejs.org/).
 
-## 💯 Lighthouse score
-![Astro Nano Lighthouse Score](/lighthouse.png)
+### Installation
 
-## 🕊️ Lightweight
-No frameworks or added bulk
+1. Clone the repository:
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+   ```shell
+   git clone https://github.com/NewtonFernandis/IssueHunter.git
+   ```
 
-## 📄 Configuration
+2. Navigate to the project directory:
 
-The blog posts on the demo serve as the documentation and configuration.
+   ```shell
+   cd IssueHunter
+   ```
 
-## 💻 Commands
+3. Install the necessary dependencies:
 
-All commands are run from the root of the project, from a terminal:
+   ```shell
+   npm install
+   ```
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+### Configuration
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run dev:network`     | Starts local dev server on local network         |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run preview:network` | Preview build on local network                   |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+IssueHunter requires a GitHub personal access token for authentication. Here's how to set it up:
+
+1. Create your personal GitHub access token by following the instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+
+2. Create a `.env` file in the project's root directory and add your access token:
+
+   ```shell
+   GITHUB_PERSONAL_ACCESS_TOKEN=your-access-token-here
+   ```
+
+### Running the Development Server
+
+Ready to harness your issue-hunting powers? Launch the development server with this command:
+
+```shell
+npm run dev
+```
+
+Your browser will become your trusty crystal ball, guiding you to IssueHunter at [http://localhost:3000](http://localhost:3000).
+
+### Building for Production
+
+When you're prepared to showcase your magical GitHub issue-finding skills to the world, use this command to create your production masterpiece:
+
+```shell
+npm run build
+```
+
+This will generate an optimized production build in the `dist` directory.
+
+We welcome your thoughts and collaboration. Your contributions are embraced with open arms! 🪄🌟
 
 ## 🏛️ License
 

@@ -1,75 +1,56 @@
 ---
-title: "Astro Sphere"
-description: "Portfolio and blog build with astro."
+title: "Scripty"
+description: "Scripty is a powerful VSCode extension that streamlines the execution of package.json scripts. It simplifies your development workflow by providing an intuitive dropdown menu to run scripts effortlessly."
 date: "Mar 18 2024"
-demoURL: "https://astro-sphere-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-sphere"
+demoURL: "https://marketplace.visualstudio.com/items?itemName=NewtonFernandis.scripty"
+repoURL: "https://github.com/NewtonFernandis/Scripty"
 ---
 
-![Astro Sphere Lighthouse Score](/astro-sphere.jpg)
+## Features
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+Scripty is a powerful VSCode extension that streamlines the execution of package.json scripts. It simplifies your development workflow by providing an intuitive dropdown menu to run scripts effortlessly.
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
+![Scripty in Action](../../../assets/ScriptyDropdown.png)
 
-## 🚀 Deploy your own
+- **Effortless Execution:** Run package.json scripts with a single click, eliminating the need for manual command entry.
+- **Intuitive Dropdown:** Access a user-friendly dropdown menu that lists all your package.json scripts for easy selection.
+- **Time-Saving:** Enhance your productivity by executing scripts directly within the editor.
 
-<div class="flex gap-2">
-  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-sphere">
-    <img src="/deploy_vercel.svg" />
-  </a>
-  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-sphere">
-    <img src="/deploy_netlify.svg" />
-  </a>
-</div>
+## Requirements
 
-## 📋 Features
+There are no specific requirements or dependencies for this extension. Simply install it to get started.
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
-- ✅ Searchable content (posts and projects)
+## Keyboard Shortcuts
 
-## 💯 Lighthouse score
-![Astro Sphere Lighthouse Score](/lighthouse.png)
+Scripty provides convenient keyboard shortcuts to quickly access its functionality:
 
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
+- **Mac**: Press `Cmd + Shift + l`
+- **Windows**: Press `Ctrl + Shift + l`
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+## Using Command Palette
 
-## 📄 Configuration
+You can also use the Command Palette to access Scripty's functionality:
 
-The blog posts on the demo serve as the documentation and configuration.
+1. Press `Cmd + Shift + P` (Mac) or `Ctrl + Shift + P` (Windows/Linux) to open the Command Palette.
+2. Type in "Scripty: Show Scripts" and select the corresponding command from the list.
 
-## 💻 Commands
+This will open the Scripty dropdown menu, allowing you to execute package.json scripts with ease.
 
-All commands are run from the root of the project, from a terminal:
+### 1.0.0
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+Initial release of Scripty.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+<!-- ### 1.0.1
+
+Fixed issue #123: Description of the issue or bug that was fixed.
+
+### 1.1.0
+
+Added features X, Y, and Z to enhance user experience. -->
+
+---
+
+**Enjoy!**
 
 ## 🏛️ License
 
